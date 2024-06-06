@@ -1,6 +1,8 @@
-error 
+in case of error 
 “execution of scripts is disabled on this system.”
 
-Bypass the security policy by running this command 
-run in Powershell admin 
+Execute Policy change:
+
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+run in Powershell admin 
